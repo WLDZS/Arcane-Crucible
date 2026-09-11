@@ -1,5 +1,16 @@
 {
   "dependencies": {
+    "com.tuyoogame.yooasset": {
+      "version": "file:com.tuyoogame.yooasset",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0",
+        "com.unity.scriptablebuildpipeline": "1.21.25"
+      }
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.14",
       "depth": 0,
@@ -135,6 +146,16 @@
       "dependencies": {
         "com.unity.render-pipelines.core": "17.6.0"
       }
+    },
+    "com.unity.scriptablebuildpipeline": {
+      "version": "3.0.3",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.test-framework": "1.4.5",
+        "com.unity.modules.assetbundle": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.searcher": {
       "version": "4.9.5",
