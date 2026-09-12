@@ -1,0 +1,18 @@
+SceneModule simplified implementation
+PASS empty address
+PASS busy during load
+PASS concurrent load rejected
+PASS additive A
+PASS lookup A
+PASS duplicate rejected
+PASS additive B
+PASS set active B
+PASS unload A
+PASS A no longer loaded
+PASS single A
+PASS Single removes B
+PASS last scene protected
+PASS unknown address rejected
+PASS non-scene address rejected
+PASS busy cleared
+DONE failures=0
